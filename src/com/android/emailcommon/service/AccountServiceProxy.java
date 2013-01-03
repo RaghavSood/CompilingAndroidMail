@@ -24,7 +24,7 @@ import android.os.RemoteException;
 
 public class AccountServiceProxy extends ServiceProxy implements IAccountService {
 
-    public static final String ACCOUNT_INTENT = "com.android.email.ACCOUNT_INTENT";
+    public static final String ACCOUNT_INTENT = "com.appaholics.email.ACCOUNT_INTENT";
     public static final int DEFAULT_ACCOUNT_COLOR = 0xFF0000FF;
 
     private IAccountService mService = null;

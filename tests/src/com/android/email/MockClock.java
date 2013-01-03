@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.email;
+package com.appaholics.email;
 
 public class MockClock extends Clock {
     public static final long DEFAULT_TIME = 10000; // Arbitrary value

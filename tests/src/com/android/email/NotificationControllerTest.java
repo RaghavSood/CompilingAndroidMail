@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.email;
+package com.appaholics.email;
 
 import android.app.Notification;
 import android.content.Context;
@@ -22,7 +22,7 @@ import android.media.AudioManager;
 import android.net.Uri;
 import android.test.AndroidTestCase;
 
-import com.android.email.provider.ProviderTestUtils;
+import com.appaholics.email.provider.ProviderTestUtils;
 import com.android.emailcommon.provider.Account;
 import com.android.emailcommon.provider.EmailContent.Message;
 import com.android.emailcommon.provider.Mailbox;

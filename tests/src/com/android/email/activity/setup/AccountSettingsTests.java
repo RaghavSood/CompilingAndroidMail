@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.email.activity.setup;
+package com.appaholics.email.activity.setup;
 
 import android.content.ContentUris;
 import android.content.Context;
@@ -37,7 +37,7 @@ import java.net.URISyntaxException;
  * TODO: These cannot run in the single-pane mode, and need to be refactored into single-pane
  *       and multi-pane versions.  Until then, they are all disabled.
  *
- * To execute:  runtest -c com.android.email.activity.setup.AccountSettingsTests email
+ * To execute:  runtest -c com.appaholics.email.activity.setup.AccountSettingsTests email
  */
 @MediumTest
 public class AccountSettingsTests extends ActivityInstrumentationTestCase2<AccountSettings> {

@@ -28,7 +28,7 @@
         android:layout_gravity="center"
         style="?android:attr/progressBarStyleLarge"
         />
-    <com.android.email.view.NonLockingScrollView
+    <com.appaholics.email.view.NonLockingScrollView
         android:id="@+id/main_panel"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -143,7 +143,7 @@
             <!--
                 content area - only one of them is visible at a time.
             -->
-            <com.android.email.view.RigidWebView
+            <com.appaholics.email.view.RigidWebView
                 android:id="@+id/message_content"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -194,5 +194,5 @@
             </ScrollView>
             <!-- end of content area -->
         </LinearLayout>
-    </com.android.email.view.NonLockingScrollView>
+    </com.appaholics.email.view.NonLockingScrollView>
 </FrameLayout>

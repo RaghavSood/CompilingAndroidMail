@@ -16,9 +16,9 @@
 
 package com.android.emailcommon.provider;
 
-import com.android.email.provider.ContentCache;
-import com.android.email.provider.EmailProvider;
-import com.android.email.provider.ProviderTestUtils;
+import com.appaholics.email.provider.ContentCache;
+import com.appaholics.email.provider.EmailProvider;
+import com.appaholics.email.provider.ProviderTestUtils;
 import com.android.emailcommon.provider.EmailContent.MailboxColumns;
 import com.android.emailcommon.provider.EmailContent.Message;
 import com.android.emailcommon.provider.EmailContent.MessageColumns;

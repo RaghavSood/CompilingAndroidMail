@@ -19,5 +19,5 @@ package com.android.emailcommon;
 
 public class AccountManagerTypes {
     public static final String TYPE_EXCHANGE = "com.android.exchange";
-    public static final String TYPE_POP_IMAP = "com.android.email";
+    public static final String TYPE_POP_IMAP = "com.appaholics.email";
 }

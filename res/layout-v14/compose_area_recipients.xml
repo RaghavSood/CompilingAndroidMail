@@ -33,7 +33,7 @@
                 android:id="@+id/to_label"
                 android:contentDescription="@string/to"/>
 
-            <com.android.email.activity.ChipsAddressTextView
+            <com.appaholics.email.activity.ChipsAddressTextView
                 android:id="@+id/to"
                 style="@style/RecipientEditTextViewStyle"/>
 
@@ -64,7 +64,7 @@
                     android:id="@+id/cc_label"
                     android:contentDescription="@string/cc"/>
 
-                <com.android.email.activity.ChipsAddressTextView
+                <com.appaholics.email.activity.ChipsAddressTextView
                     android:id="@+id/cc"
                     style="@style/RecipientEditTextViewStyle"/>
             </LinearLayout>
@@ -86,7 +86,7 @@
                     android:id="@+id/bcc_label"
                     android:contentDescription="@string/bcc"/>
 
-                <com.android.email.activity.ChipsAddressTextView
+                <com.appaholics.email.activity.ChipsAddressTextView
                     android:id="@+id/bcc"
                     style="@style/RecipientEditTextViewStyle"/>
 

@@ -79,7 +79,7 @@ import android.widget.MultiAutoCompleteTextView;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.android.email.R;
+import com.appaholics.email.R;
 
 import java.util.ArrayList;
 import java.util.Arrays;

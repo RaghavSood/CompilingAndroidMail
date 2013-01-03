@@ -19,5 +19,5 @@ package com.android.emailcommon;
 public class Configuration {
     // Bundle key for Exchange configuration (boolean value)
     public static final String EXCHANGE_CONFIGURATION_USE_ALTERNATE_STRINGS =
-        "com.android.email.EXCHANGE_CONFIGURATION_USE_ALTERNATE_STRINGS";
+        "com.appaholics.email.EXCHANGE_CONFIGURATION_USE_ALTERNATE_STRINGS";
 }

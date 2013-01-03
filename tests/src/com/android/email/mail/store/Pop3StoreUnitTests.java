@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.android.email.mail.store;
+package com.appaholics.email.mail.store;
 
 import android.content.Context;
 import android.test.AndroidTestCase;
 import android.test.suitebuilder.annotation.SmallTest;
 
-import com.android.email.Controller;
-import com.android.email.DBTestHelper;
-import com.android.email.mail.Transport;
-import com.android.email.mail.transport.MockTransport;
-import com.android.email.provider.ProviderTestUtils;
+import com.appaholics.email.Controller;
+import com.appaholics.email.DBTestHelper;
+import com.appaholics.email.mail.Transport;
+import com.appaholics.email.mail.transport.MockTransport;
+import com.appaholics.email.provider.ProviderTestUtils;
 import com.android.emailcommon.TempDirectory;
 import com.android.emailcommon.internet.MimeMessage;
 import com.android.emailcommon.mail.Address;

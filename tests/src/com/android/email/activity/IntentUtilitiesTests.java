@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.email.activity;
+package com.appaholics.email.activity;
 
 import com.android.emailcommon.utility.IntentUtilities;
 

@@ -29,9 +29,9 @@ import android.widget.CursorAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.android.email.R;
 
 import com.android.ex.chips.Queries.Query;
+import com.appaholics.email.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;

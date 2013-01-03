@@ -21,7 +21,7 @@
 <!-- for the SyncAdapter. -->
 
 <sync-adapter xmlns:android="http://schemas.android.com/apk/res/android"
-    android:contentAuthority="com.android.email.provider"
-    android:accountType="com.android.email"
+    android:contentAuthority="com.appaholics.email.provider"
+    android:accountType="com.appaholics.email"
     android:supportsUploading="false"
 />

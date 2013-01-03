@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.email;
+package com.appaholics.email;
 
 import junit.framework.Test;
 import junit.framework.TestSuite;
@@ -27,8 +27,8 @@ import android.test.suitebuilder.TestSuiteBuilder;
  *
  * To run just this suite from the command line:
  * $ adb shell am instrument -w \
- *   -e class com.android.email.UnitTests \
- *   com.android.email.tests/android.test.InstrumentationTestRunner
+ *   -e class com.appaholics.email.UnitTests \
+ *   com.appaholics.email.tests/android.test.InstrumentationTestRunner
  */
 public class SmallTests extends TestSuite {
 

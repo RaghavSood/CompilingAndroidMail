@@ -17,11 +17,11 @@
 // Disabled for now, as these tests will probably not make sense with the upcoming UI change.
 // TODO Revive them in some way.
 
-//package com.android.email.activity;
+//package com.appaholics.email.activity;
 //
-//import com.android.email.Email;
-//import com.android.email.MessagingController;
-//import com.android.email.R;
+//import com.appaholics.email.Email;
+//import com.appaholics.email.MessagingController;
+//import com.appaholics.email.R;
 //
 //import android.app.Application;
 //import android.content.Context;
@@ -44,8 +44,8 @@
 //        extends ActivityInstrumentationTestCase2<MessageView> {
 //
 //    // copied from MessageView (could be package class)
-//    private static final String EXTRA_MESSAGE_ID = "com.android.email.MessageView_message_id";
-//    private static final String EXTRA_MAILBOX_ID = "com.android.email.MessageView_mailbox_id";
+//    private static final String EXTRA_MESSAGE_ID = "com.appaholics.email.MessageView_message_id";
+//    private static final String EXTRA_MAILBOX_ID = "com.appaholics.email.MessageView_mailbox_id";
 //
 //    private TextView mToView;
 //    private TextView mSubjectView;

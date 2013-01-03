@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.email;
+package com.appaholics.email;
 
 import com.android.emailcommon.mail.MockFolder;
 import com.android.emailcommon.provider.Account;

@@ -16,8 +16,8 @@
 
 package com.android.emailcommon.internet;
 
-import com.android.email.R;
-import com.android.email.provider.EmailProvider;
+import com.appaholics.email.R;
+import com.appaholics.email.provider.EmailProvider;
 import com.android.emailcommon.internet.Rfc822Output;
 import com.android.emailcommon.mail.MessagingException;
 import com.android.emailcommon.provider.EmailContent;
@@ -45,7 +45,7 @@ import java.util.List;
  * Tests of the Rfc822Output (used for sending mail)
  *
  * You can run this entire test case with:
- *   runtest -c com.android.email.mail.transport.Rfc822OutputTests email
+ *   runtest -c com.appaholics.email.mail.transport.Rfc822OutputTests email
  */
 public class Rfc822OutputTests extends ProviderTestCase2<EmailProvider> {
     private static final String SENDER = "sender@android.com";

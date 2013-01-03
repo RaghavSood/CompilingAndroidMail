@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.email.activity;
+package com.appaholics.email.activity;
 
-import com.android.email.DBTestHelper;
-import com.android.email.FolderProperties;
-import com.android.email.R;
-import com.android.email.provider.ProviderTestUtils;
+import com.appaholics.email.DBTestHelper;
+import com.appaholics.email.FolderProperties;
+import com.appaholics.email.R;
+import com.appaholics.email.provider.ProviderTestUtils;
 import com.android.emailcommon.provider.Account;
 import com.android.emailcommon.provider.Mailbox;
 

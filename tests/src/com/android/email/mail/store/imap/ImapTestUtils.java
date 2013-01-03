@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.android.email.mail.store.imap;
+package com.appaholics.email.mail.store.imap;
 
-import com.android.email.FixedLengthInputStream;
-import com.android.email.mail.store.imap.ImapElement;
-import com.android.email.mail.store.imap.ImapList;
-import com.android.email.mail.store.imap.ImapResponse;
-import com.android.email.mail.store.imap.ImapSimpleString;
-import com.android.email.mail.store.imap.ImapString;
-import com.android.email.mail.transport.DiscourseLogger;
+import com.appaholics.email.FixedLengthInputStream;
+import com.appaholics.email.mail.store.imap.ImapElement;
+import com.appaholics.email.mail.store.imap.ImapList;
+import com.appaholics.email.mail.store.imap.ImapResponse;
+import com.appaholics.email.mail.store.imap.ImapSimpleString;
+import com.appaholics.email.mail.store.imap.ImapString;
+import com.appaholics.email.mail.transport.DiscourseLogger;
 import com.android.emailcommon.utility.Utility;
 
 import java.io.ByteArrayInputStream;

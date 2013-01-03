@@ -35,21 +35,21 @@
   *** *Anim(...);
 }
 
--keepclasseswithmembers class com.android.email.activity.RecentMailboxManager {
+-keepclasseswithmembers class com.appaholics.email.activity.RecentMailboxManager {
   *** touch(long);
   *** getInstance(android.content.Context);
   *** getMostRecent(long, boolean);
 }
 
--keepclasseswithmembers class com.android.email.activity.setup.AccountSetupAccountType {
-  *** checkAccountInstanceLimit(com.android.email.mail.Store$StoreInfo);
+-keepclasseswithmembers class com.appaholics.email.activity.setup.AccountSetupAccountType {
+  *** checkAccountInstanceLimit(com.appaholics.email.mail.Store$StoreInfo);
 }
 
--keepclasseswithmembers class com.android.email.GroupMessagingListener {
-  *** removeListener(com.android.email.MessagingListener);
+-keepclasseswithmembers class com.appaholics.email.GroupMessagingListener {
+  *** removeListener(com.appaholics.email.MessagingListener);
 }
 
--keepclasseswithmembers class com.android.email.Controller {
+-keepclasseswithmembers class com.appaholics.email.Controller {
   *** setProviderContext(android.content.Context);
 }
 
@@ -64,12 +64,12 @@
   *** parseAndPack(java.lang.String);
 }
 
--keepclasseswithmembers class com.android.email.SecurityPolicy {
+-keepclasseswithmembers class com.appaholics.email.SecurityPolicy {
   *** setContext(android.content.Context);
 }
 
--keepclasseswithmembers class com.android.email.MessagingController {
-  *** injectMockController(com.android.email.MessagingController);
+-keepclasseswithmembers class com.appaholics.email.MessagingController {
+  *** injectMockController(com.appaholics.email.MessagingController);
 }
 
 -keepclasseswithmembers class com.android.emailcommon.utility.Utility {
@@ -83,7 +83,7 @@
   *** log(android.database.Cursor);
 }
 
--keepclasseswithmembers class com.android.email.provider.EmailProvider {
+-keepclasseswithmembers class com.appaholics.email.provider.EmailProvider {
   *** getReadableDatabase(android.content.Context);
 }
 
@@ -91,15 +91,15 @@
   *** createUniqueFile(java.lang.String);
 }
 
--keepclasseswithmembers class com.android.email.service.AttachmentDownloadService {
+-keepclasseswithmembers class com.appaholics.email.service.AttachmentDownloadService {
   *** addServiceClass(long, java.lang.Class);
 }
 
--keepclasseswithmembers class com.android.email.service.AttachmentDownloadService$AccountManagerStub {
+-keepclasseswithmembers class com.appaholics.email.service.AttachmentDownloadService$AccountManagerStub {
   *** setNumberOfAccounts(int);
 }
 
--keepclasseswithmembers class com.android.email.Preferences {
+-keepclasseswithmembers class com.appaholics.email.Preferences {
   *** getAccountByContentUri(android.net.Uri);
 }
 
@@ -128,30 +128,30 @@
   *** findFirstPartByMimeType(com.android.emailcommon.mail.Part, java.lang.String);
 }
 
--keepclasseswithmembers class com.android.email.mail.transport.SmtpSender {
-  *** setTransport(com.android.email.mail.Transport);
+-keepclasseswithmembers class com.appaholics.email.mail.transport.SmtpSender {
+  *** setTransport(com.appaholics.email.mail.Transport);
 }
 
--keepclasseswithmembers class com.android.email.mail.Store {
+-keepclasseswithmembers class com.appaholics.email.mail.Store {
   *** requireStructurePrefetch();
 }
 
--keepclasseswithmembers class com.android.email.mail.store.ImapStore {
-  *** setTransport(com.android.email.mail.Transport);
+-keepclasseswithmembers class com.appaholics.email.mail.store.ImapStore {
+  *** setTransport(com.appaholics.email.mail.Transport);
 }
 
--keepclasseswithmembers class com.android.email.mail.store.ImapFolder {
+-keepclasseswithmembers class com.appaholics.email.mail.store.ImapFolder {
   *** getMessages(int, int, com.android.emailcommon.mail.Folder$MessageRetrievalListener);
   *** getMessages(com.android.emailcommon.mail.Folder$MessageRetrievalListener);
   *** getMessages(java.lang.String[], com.android.emailcommon.mail.Folder$MessageRetrievalListener);
   *** getUnreadMessageCount();
 }
 
--keepclasseswithmembers class com.android.email.mail.store.Pop3Store {
-  *** setTransport(com.android.email.mail.Transport);
+-keepclasseswithmembers class com.appaholics.email.mail.store.Pop3Store {
+  *** setTransport(com.appaholics.email.mail.Transport);
 }
 
--keepclasseswithmembers class com.android.email.mail.store.Pop3Store$Pop3Folder {
+-keepclasseswithmembers class com.appaholics.email.mail.store.Pop3Store$Pop3Folder {
   *** getMessages(int, int, com.android.emailcommon.mail.Folder$MessageRetrievalListener);
   *** getMessages(com.android.emailcommon.mail.Folder$MessageRetrievalListener);
   *** getMessages(java.lang.String[], com.android.emailcommon.mail.Folder$MessageRetrievalListener);
@@ -176,7 +176,7 @@
   *** put(java.lang.String, java.lang.String);
 }
 
--keepclasseswithmembers class com.android.email.provider.ContentCache$CounterMap {
+-keepclasseswithmembers class com.appaholics.email.provider.ContentCache$CounterMap {
   *** getCount(...);
   *** size();
 }
@@ -198,7 +198,7 @@
   *** getBody();
 }
 
--keepclasseswithmembers class com.android.email.FolderProperties {
+-keepclasseswithmembers class com.appaholics.email.FolderProperties {
   *** getDisplayName(int);
 }
 
@@ -216,7 +216,7 @@
   *** toByteArray(java.lang.String);
 }
 
--keepclasseswithmembers class com.android.email.activity.ThreePaneLayout {
+-keepclasseswithmembers class com.appaholics.email.activity.ThreePaneLayout {
   *** setMessageListWidthAnim(...);
   *** setMailboxListLeftAnim(...);
 }

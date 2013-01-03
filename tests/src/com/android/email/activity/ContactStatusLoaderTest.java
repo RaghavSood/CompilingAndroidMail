@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.email.activity;
+package com.appaholics.email.activity;
 
-import com.android.email.activity.ContactStatusLoader.Result;
+import com.appaholics.email.activity.ContactStatusLoader.Result;
 
 import android.content.Context;
 import android.content.pm.ProviderInfo;

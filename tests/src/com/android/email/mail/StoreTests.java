@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.android.email.mail;
+package com.appaholics.email.mail;
 
 import android.content.Context;
 import android.test.ProviderTestCase2;
 import android.test.suitebuilder.annotation.MediumTest;
 
-import com.android.email.provider.EmailProvider;
-import com.android.email.provider.ProviderTestUtils;
+import com.appaholics.email.provider.EmailProvider;
+import com.appaholics.email.provider.ProviderTestUtils;
 import com.android.emailcommon.mail.MessagingException;
 import com.android.emailcommon.provider.Account;
 import com.android.emailcommon.provider.EmailContent;
@@ -32,7 +32,7 @@ import com.android.emailcommon.provider.Mailbox;
  * Tests of StoreInfo & Store lookup in the Store abstract class
  *
  * You can run this entire test case with:
- *   runtest -c com.android.email.mail.store.StoreTests email
+ *   runtest -c com.appaholics.email.mail.store.StoreTests email
  *
  */
 

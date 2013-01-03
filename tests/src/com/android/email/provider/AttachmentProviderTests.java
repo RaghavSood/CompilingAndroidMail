@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.android.email.provider;
+package com.appaholics.email.provider;
 
-import com.android.email.AttachmentInfo;
-import com.android.email.R;
+import com.appaholics.email.AttachmentInfo;
+import com.appaholics.email.R;
 import com.android.emailcommon.mail.MessagingException;
 import com.android.emailcommon.provider.Account;
 import com.android.emailcommon.provider.EmailContent;
@@ -45,7 +45,7 @@ import java.io.IOException;
  * Tests of the Email Attachments provider.
  *
  * You can run this entire test case with:
- *   runtest -c com.android.email.provider.AttachmentProviderTests email
+ *   runtest -c com.appaholics.email.provider.AttachmentProviderTests email
  */
 public class AttachmentProviderTests extends ProviderTestCase2<AttachmentProvider> {
 

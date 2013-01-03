@@ -44,7 +44,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 public class AttachmentUtilities {
-    public static final String AUTHORITY = "com.android.email.attachmentprovider";
+    public static final String AUTHORITY = "com.appaholics.email.attachmentprovider";
     public static final Uri CONTENT_URI = Uri.parse( "content://" + AUTHORITY);
 
     public static final String FORMAT_RAW = "RAW";

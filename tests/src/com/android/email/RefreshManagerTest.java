@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.email;
+package com.appaholics.email;
 
-import com.android.email.provider.ProviderTestUtils;
+import com.appaholics.email.provider.ProviderTestUtils;
 import com.android.emailcommon.Logging;
 import com.android.emailcommon.mail.MessagingException;
 import com.android.emailcommon.provider.Account;

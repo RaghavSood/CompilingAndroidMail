@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.email.mail.store.imap;
+package com.appaholics.email.mail.store.imap;
 
-import static com.android.email.mail.store.imap.ImapTestUtils.createFixedLengthInputStream;
+import static com.appaholics.email.mail.store.imap.ImapTestUtils.createFixedLengthInputStream;
 
 import com.android.emailcommon.TempDirectory;
 import com.android.emailcommon.utility.Utility;

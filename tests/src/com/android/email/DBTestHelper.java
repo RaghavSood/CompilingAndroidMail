@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.android.email;
+package com.appaholics.email;
 
-import com.android.email.provider.AttachmentProvider;
-import com.android.email.provider.ContentCache;
-import com.android.email.provider.EmailProvider;
+import com.appaholics.email.provider.AttachmentProvider;
+import com.appaholics.email.provider.ContentCache;
+import com.appaholics.email.provider.EmailProvider;
 import com.android.emailcommon.provider.EmailContent;
 import com.android.emailcommon.utility.AttachmentUtilities;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.email.mail.store;
+package com.appaholics.email.mail.store;
 
 import android.content.Context;
 import android.content.ContextWrapper;
@@ -26,15 +26,15 @@ import android.test.InstrumentationTestCase;
 import android.test.MoreAsserts;
 import android.test.suitebuilder.annotation.SmallTest;
 
-import com.android.email.DBTestHelper;
-import com.android.email.MockSharedPreferences;
-import com.android.email.MockVendorPolicy;
-import com.android.email.VendorPolicyLoader;
-import com.android.email.mail.Transport;
-import com.android.email.mail.store.ImapStore.ImapMessage;
-import com.android.email.mail.store.imap.ImapResponse;
-import com.android.email.mail.store.imap.ImapTestUtils;
-import com.android.email.mail.transport.MockTransport;
+import com.appaholics.email.DBTestHelper;
+import com.appaholics.email.MockSharedPreferences;
+import com.appaholics.email.MockVendorPolicy;
+import com.appaholics.email.VendorPolicyLoader;
+import com.appaholics.email.mail.Transport;
+import com.appaholics.email.mail.store.ImapStore.ImapMessage;
+import com.appaholics.email.mail.store.imap.ImapResponse;
+import com.appaholics.email.mail.store.imap.ImapTestUtils;
+import com.appaholics.email.mail.transport.MockTransport;
 import com.android.emailcommon.TempDirectory;
 import com.android.emailcommon.internet.MimeBodyPart;
 import com.android.emailcommon.internet.MimeMultipart;
@@ -68,7 +68,7 @@ import java.util.regex.Pattern;
  * complete - no server(s) required.
  *
  * To run these tests alone, use:
- *   $ runtest -c com.android.email.mail.store.ImapStoreUnitTests email
+ *   $ runtest -c com.appaholics.email.mail.store.ImapStoreUnitTests email
  *
  * TODO Check if callback is really called
  * TODO test for BAD response in various places?

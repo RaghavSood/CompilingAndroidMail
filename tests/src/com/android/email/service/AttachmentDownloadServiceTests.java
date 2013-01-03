@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.android.email.service;
+package com.appaholics.email.service;
 
 import android.content.Context;
 import android.content.Intent;
 
-import com.android.email.AccountTestCase;
-import com.android.email.EmailConnectivityManager;
-import com.android.email.provider.ProviderTestUtils;
-import com.android.email.service.AttachmentDownloadService.DownloadRequest;
-import com.android.email.service.AttachmentDownloadService.DownloadSet;
-import com.android.email.service.EmailServiceUtils.NullEmailService;
+import com.appaholics.email.AccountTestCase;
+import com.appaholics.email.EmailConnectivityManager;
+import com.appaholics.email.provider.ProviderTestUtils;
+import com.appaholics.email.service.AttachmentDownloadService.DownloadRequest;
+import com.appaholics.email.service.AttachmentDownloadService.DownloadSet;
+import com.appaholics.email.service.EmailServiceUtils.NullEmailService;
 import com.android.emailcommon.provider.Account;
 import com.android.emailcommon.provider.EmailContent.Attachment;
 import com.android.emailcommon.provider.EmailContent.Message;
@@ -38,7 +38,7 @@ import java.util.Iterator;
  * Tests of the AttachmentDownloadService
  *
  * You can run this entire test case with:
- *   runtest -c com.android.email.service.AttachmentDownloadServiceTests email
+ *   runtest -c com.appaholics.email.service.AttachmentDownloadServiceTests email
  */
 public class AttachmentDownloadServiceTests extends AccountTestCase {
     private AttachmentDownloadService mService;

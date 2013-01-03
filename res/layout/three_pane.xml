@@ -19,7 +19,7 @@
 <!-- Implementation of a three pane layout where two panes are always visible at
      any given time. -->
 <!-- Note the width of each pane is set by code at runtime.  -->
-<com.android.email.activity.ThreePaneLayout
+<com.appaholics.email.activity.ThreePaneLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:splitMotionEvents="true"
     >
@@ -60,4 +60,4 @@
             android:id="@+id/inmessage_command_buttons"
             />
     </LinearLayout>
-</com.android.email.activity.ThreePaneLayout>
+</com.appaholics.email.activity.ThreePaneLayout>

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.email.activity;
+package com.appaholics.email.activity;
 
 import android.content.ContentUris;
 import android.content.Context;
@@ -29,10 +29,10 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.MultiAutoCompleteTextView;
 
-import com.android.email.Email;
-import com.android.email.EmailAddressValidator;
-import com.android.email.R;
-import com.android.email.TestUtils;
+import com.appaholics.email.Email;
+import com.appaholics.email.EmailAddressValidator;
+import com.appaholics.email.R;
+import com.appaholics.email.TestUtils;
 import com.android.emailcommon.Logging;
 import com.android.emailcommon.mail.Address;
 import com.android.emailcommon.mail.MessagingException;
@@ -50,7 +50,7 @@ import java.util.ArrayList;
  * It might be possible to convert these to ActivityUnitTest, which would be faster.
  *
  * You can run this entire test case with:
- *   runtest -c com.android.email.activity.MessageComposeTests email
+ *   runtest -c com.appaholics.email.activity.MessageComposeTests email
  */
 @LargeTest
 public class MessageComposeTests
@@ -117,10 +117,10 @@ public class MessageComposeTests
      * be done consciously to think about existing shortcuts and clients.
      */
 
-    private static final String ACTION_REPLY = "com.android.email.intent.action.REPLY";
-    private static final String ACTION_REPLY_ALL = "com.android.email.intent.action.REPLY_ALL";
-    private static final String ACTION_FORWARD = "com.android.email.intent.action.FORWARD";
-    private static final String ACTION_EDIT_DRAFT = "com.android.email.intent.action.EDIT_DRAFT";
+    private static final String ACTION_REPLY = "com.appaholics.email.intent.action.REPLY";
+    private static final String ACTION_REPLY_ALL = "com.appaholics.email.intent.action.REPLY_ALL";
+    private static final String ACTION_FORWARD = "com.appaholics.email.intent.action.FORWARD";
+    private static final String ACTION_EDIT_DRAFT = "com.appaholics.email.intent.action.EDIT_DRAFT";
 
     public MessageComposeTests() {
         super(MessageCompose.class);

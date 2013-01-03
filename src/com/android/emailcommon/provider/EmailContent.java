@@ -60,11 +60,11 @@ import java.util.ArrayList;
  */
 public abstract class EmailContent {
 
-    public static final String AUTHORITY = "com.android.email.provider";
+    public static final String AUTHORITY = "com.appaholics.email.provider";
     // The notifier authority is used to send notifications regarding changes to messages (insert,
     // delete, or update) and is intended as an optimization for use by clients of message list
     // cursors (initially, the email AppWidget).
-    public static final String NOTIFIER_AUTHORITY = "com.android.email.notifier";
+    public static final String NOTIFIER_AUTHORITY = "com.appaholics.email.notifier";
 
     public static final Uri CONTENT_URI = Uri.parse("content://" + AUTHORITY);
     public static final String PARAMETER_LIMIT = "limit";
@@ -82,7 +82,7 @@ public abstract class EmailContent {
     public static final Uri MAILBOX_MOST_RECENT_MESSAGE_URI =
             Uri.parse("content://" + EmailContent.AUTHORITY + "/mailboxMostRecentMessage");
 
-    public static final String PROVIDER_PERMISSION = "com.android.email.permission.ACCESS_PROVIDER";
+    public static final String PROVIDER_PERMISSION = "com.appaholics.email.permission.ACCESS_PROVIDER";
 
     // All classes share this
     public static final String RECORD_ID = "_id";
@@ -878,7 +878,7 @@ public abstract class EmailContent {
          * Override this so that we can store the Body first and link it to the Message
          * Also, attachments when we get there...
          * (non-Javadoc)
-         * @see com.android.email.provider.EmailContent#save(android.content.Context)
+         * @see com.appaholics.email.provider.EmailContent#save(android.content.Context)
          */
         @Override
         public Uri save(Context context) {

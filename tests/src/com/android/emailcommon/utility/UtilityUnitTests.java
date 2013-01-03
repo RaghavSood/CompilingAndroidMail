@@ -16,10 +16,10 @@
 
 package com.android.emailcommon.utility;
 
-import com.android.email.DBTestHelper;
-import com.android.email.R;
-import com.android.email.TestUtils;
-import com.android.email.provider.ProviderTestUtils;
+import com.appaholics.email.DBTestHelper;
+import com.appaholics.email.R;
+import com.appaholics.email.TestUtils;
+import com.appaholics.email.provider.ProviderTestUtils;
 import com.android.emailcommon.provider.Account;
 import com.android.emailcommon.provider.EmailContent.Attachment;
 import com.android.emailcommon.provider.EmailContent.MailboxColumns;
@@ -56,7 +56,7 @@ import java.util.Set;
  * complete - no server(s) required.
  *
  * You can run this entire test case with:
- *   runtest -c com.android.email.UtilityUnitTests email
+ *   runtest -c com.appaholics.email.UtilityUnitTests email
  */
 @SmallTest
 public class UtilityUnitTests extends AndroidTestCase {

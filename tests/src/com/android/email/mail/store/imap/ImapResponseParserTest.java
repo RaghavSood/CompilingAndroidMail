@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.android.email.mail.store.imap;
+package com.appaholics.email.mail.store.imap;
 
-import static com.android.email.mail.store.imap.ImapTestUtils.assertElement;
-import static com.android.email.mail.store.imap.ImapTestUtils.buildList;
-import static com.android.email.mail.store.imap.ImapTestUtils.buildResponse;
-import static com.android.email.mail.store.imap.ImapTestUtils.createFixedLengthInputStream;
+import static com.appaholics.email.mail.store.imap.ImapTestUtils.assertElement;
+import static com.appaholics.email.mail.store.imap.ImapTestUtils.buildList;
+import static com.appaholics.email.mail.store.imap.ImapTestUtils.buildResponse;
+import static com.appaholics.email.mail.store.imap.ImapTestUtils.createFixedLengthInputStream;
 
-import com.android.email.mail.store.imap.ImapResponseParser.ByeException;
-import com.android.email.mail.transport.DiscourseLogger;
+import com.appaholics.email.mail.store.imap.ImapResponseParser.ByeException;
+import com.appaholics.email.mail.transport.DiscourseLogger;
 import com.android.emailcommon.TempDirectory;
 import com.android.emailcommon.mail.MessagingException;
 import com.android.emailcommon.utility.Utility;

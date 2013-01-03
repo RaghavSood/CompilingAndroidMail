@@ -16,8 +16,8 @@
 
 package com.android.emailcommon.utility;
 
-import com.android.email.provider.EmailProvider;
-import com.android.email.provider.ProviderTestUtils;
+import com.appaholics.email.provider.EmailProvider;
+import com.appaholics.email.provider.ProviderTestUtils;
 import com.android.emailcommon.provider.Account;
 import com.android.emailcommon.provider.EmailContent;
 import com.android.emailcommon.provider.EmailContent.Attachment;
@@ -134,12 +134,12 @@ public class UtilityMediumTests extends ProviderTestCase2<EmailProvider> {
 
     public void testBuildLimitOneUri() {
         // EmailProvider supports "?limit="
-        assertEquals(Uri.parse("content://com.android.email.provider?limit=1"),
-                Utility.buildLimitOneUri(Uri.parse("content://com.android.email.provider")));
+        assertEquals(Uri.parse("content://com.appaholics.email.provider?limit=1"),
+                Utility.buildLimitOneUri(Uri.parse("content://com.appaholics.email.provider")));
 
         // Others don't -- so don't add it.
-        assertEquals(Uri.parse("content://com.android.email.attachmentprovider"),
-                Utility.buildLimitOneUri(Uri.parse("content://com.android.email.attachmentprovider"
+        assertEquals(Uri.parse("content://com.appaholics.email.attachmentprovider"),
+                Utility.buildLimitOneUri(Uri.parse("content://com.appaholics.email.attachmentprovider"
                         )));
         assertEquals(Uri.parse("content://gmail-ls/android@gmail.com"),
                 Utility.buildLimitOneUri(Uri.parse("content://gmail-ls/android@gmail.com"

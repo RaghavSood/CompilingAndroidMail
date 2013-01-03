@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.email.activity;
+package com.appaholics.email.activity;
 
-import com.android.email.R;
+import com.appaholics.email.R;
 
 import android.app.Activity;
 import android.content.Context;

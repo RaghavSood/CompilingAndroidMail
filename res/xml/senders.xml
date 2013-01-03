@@ -30,6 +30,6 @@
     -->
 
 <senders>
-    <sender scheme="smtp" class="com.android.email.mail.transport.SmtpSender" />
-    <sender scheme="eas" class="com.android.email.mail.transport.ExchangeSender" />
+    <sender scheme="smtp" class="com.appaholics.email.mail.transport.SmtpSender" />
+    <sender scheme="eas" class="com.appaholics.email.mail.transport.ExchangeSender" />
 </senders>

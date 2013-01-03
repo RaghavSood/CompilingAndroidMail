@@ -44,7 +44,7 @@ LOCAL_SDK_VERSION := 16
 # leaving out code which is tested by other means (e.g. static libraries) that
 # would dilute the coverage results. These options do not affect regular
 # production builds.
-LOCAL_EMMA_COVERAGE_FILTER := +com.android.emailcommon.*,+com.android.email.*, \
+LOCAL_EMMA_COVERAGE_FILTER := +com.android.emailcommon.*,+com.appaholics.email.*, \
     +org.apache.james.mime4j.*,+com.beetstra.jutf7.*,+org.apache.commons.io.*
 
 include $(BUILD_PACKAGE)

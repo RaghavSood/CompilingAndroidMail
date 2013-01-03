@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.email.mail.store.imap;
+package com.appaholics.email.mail.store.imap;
 
-import com.android.email.mail.store.imap.ImapUtility;
+import com.appaholics.email.mail.store.imap.ImapUtility;
 
 import android.test.AndroidTestCase;
 import android.test.MoreAsserts;

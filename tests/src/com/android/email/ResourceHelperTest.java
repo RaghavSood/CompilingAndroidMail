@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.email;
+package com.appaholics.email;
 
 import android.graphics.Paint;
 import android.test.AndroidTestCase;

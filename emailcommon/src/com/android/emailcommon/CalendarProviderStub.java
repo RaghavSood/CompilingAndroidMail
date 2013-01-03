@@ -17,7 +17,7 @@
 package com.android.emailcommon;
 
 /**
- * This is the only non-SDK reference in the com.android.email project, referencing the once and
+ * This is the only non-SDK reference in the com.appaholics.email project, referencing the once and
  * future CalendarProvider authority name.
  */
 public class CalendarProviderStub {

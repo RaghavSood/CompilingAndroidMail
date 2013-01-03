@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.android.email;
+package com.appaholics.email;
 
-import com.android.email.provider.EmailProvider;
-import com.android.email.provider.ProviderTestUtils;
+import com.appaholics.email.provider.EmailProvider;
+import com.appaholics.email.provider.ProviderTestUtils;
 import com.android.emailcommon.internet.MimeBodyPart;
 import com.android.emailcommon.internet.MimeHeader;
 import com.android.emailcommon.internet.MimeMessage;
@@ -55,7 +55,7 @@ import java.util.Date;
  * a true "unit test".
  *
  * You can run this entire test case with:
- *   runtest -c com.android.email.LegacyConversionsTests email
+ *   runtest -c com.appaholics.email.LegacyConversionsTests email
  */
 public class LegacyConversionsTests extends ProviderTestCase2<EmailProvider> {
 

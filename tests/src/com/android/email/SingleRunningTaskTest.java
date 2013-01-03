@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.email;
+package com.appaholics.email;
 
-import com.android.email.TestUtils.Condition;
+import com.appaholics.email.TestUtils.Condition;
 import com.android.emailcommon.utility.Utility;
 
 import java.util.concurrent.atomic.AtomicInteger;

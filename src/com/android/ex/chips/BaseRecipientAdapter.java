@@ -46,7 +46,7 @@ import android.widget.Filterable;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.android.email.R;
+import com.appaholics.email.R;
 
 import java.util.ArrayList;
 import java.util.HashSet;

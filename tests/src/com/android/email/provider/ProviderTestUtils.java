@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.email.provider;
+package com.appaholics.email.provider;
 
 import com.android.emailcommon.internet.Rfc822Output;
 import com.android.emailcommon.provider.Account;

@@ -30,7 +30,7 @@
 
         <fragment
             android:id="@+id/setup_fragment"
-            class="com.android.email.activity.setup.AccountSetupOutgoingFragment"
+            class="com.appaholics.email.activity.setup.AccountSetupOutgoingFragment"
             android:layout_alignParentTop="true"
             android:layout_width="match_parent"
             android:layout_height="0dip"

@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.android.email;
+package com.appaholics.email;
 
 import android.content.Context;
 import android.net.Uri;
 import android.test.ProviderTestCase2;
 
-import com.android.email.provider.ContentCache;
-import com.android.email.provider.EmailProvider;
-import com.android.email.provider.ProviderTestUtils;
+import com.appaholics.email.provider.ContentCache;
+import com.appaholics.email.provider.EmailProvider;
+import com.appaholics.email.provider.ProviderTestUtils;
 import com.android.emailcommon.provider.Account;
 import com.android.emailcommon.provider.EmailContent;
 import com.android.emailcommon.provider.EmailContent.Body;
@@ -41,7 +41,7 @@ import java.util.concurrent.ExecutionException;
  * a true "unit test".
  *
  * You can run this entire test case with:
- *   runtest -c com.android.email.ControllerProviderOpsTests email
+ *   runtest -c com.appaholics.email.ControllerProviderOpsTests email
  */
 public class ControllerProviderOpsTests extends ProviderTestCase2<EmailProvider> {
 

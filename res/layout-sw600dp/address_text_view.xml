@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 
-<com.android.email.activity.AddressTextView
+<com.appaholics.email.activity.AddressTextView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:inputType="textEmailAddress|textMultiLine"
     android:imeOptions="actionNext"

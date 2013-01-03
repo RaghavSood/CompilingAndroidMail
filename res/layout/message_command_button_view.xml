@@ -15,7 +15,7 @@
 -->
 
 <!-- extends LinearLayout -->
-<com.android.email.activity.MessageCommandButtonView
+<com.appaholics.email.activity.MessageCommandButtonView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="64dip"
@@ -62,4 +62,4 @@
         android:layout_width="wrap_content"
         android:minWidth="128dip"
         />
-</com.android.email.activity.MessageCommandButtonView>
+</com.appaholics.email.activity.MessageCommandButtonView>

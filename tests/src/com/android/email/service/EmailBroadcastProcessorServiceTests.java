@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.android.email.service;
+package com.appaholics.email.service;
 
-import com.android.email.AccountTestCase;
-import com.android.email.provider.ProviderTestUtils;
+import com.appaholics.email.AccountTestCase;
+import com.appaholics.email.provider.ProviderTestUtils;
 import com.android.emailcommon.provider.Account;
 import com.android.emailcommon.provider.EmailContent.AccountColumns;
 import com.android.emailcommon.provider.HostAuth;
@@ -33,7 +33,7 @@ import java.util.NoSuchElementException;
  * Tests of the Email provider.
  *
  * You can run this entire test case with:
- *   runtest -c com.android.email.service.EmailBroadcastProcessorServiceTests email
+ *   runtest -c com.appaholics.email.service.EmailBroadcastProcessorServiceTests email
  */
 public class EmailBroadcastProcessorServiceTests extends AccountTestCase {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.email.mail.transport;
+package com.appaholics.email.mail.transport;
 
 import android.test.MoreAsserts;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.email;
+package com.appaholics.email;
 
 import android.accounts.AccountManager;
 import android.accounts.AccountManagerFuture;
@@ -23,8 +23,8 @@ import android.accounts.OperationCanceledException;
 import android.database.Cursor;
 import android.test.ProviderTestCase2;
 
-import com.android.email.provider.EmailProvider;
-import com.android.email.provider.ProviderTestUtils;
+import com.appaholics.email.provider.EmailProvider;
+import com.appaholics.email.provider.ProviderTestUtils;
 import com.android.emailcommon.provider.Account;
 import com.android.emailcommon.provider.EmailContent;
 

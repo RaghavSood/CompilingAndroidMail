@@ -16,7 +16,7 @@
 
 <!-- A layout to select a certificate, akin to a file selector on web pages. -->
 <!-- Extends LinearLayout -->
-<com.android.email.view.CertificateSelector
+<com.appaholics.email.view.CertificateSelector
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -54,4 +54,4 @@
         android:ellipsize="end"
         android:text="@string/account_setup_exchange_no_certificate" />
 
-</com.android.email.view.CertificateSelector>
+</com.appaholics.email.view.CertificateSelector>

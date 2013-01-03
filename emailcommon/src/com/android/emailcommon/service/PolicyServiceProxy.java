@@ -30,7 +30,7 @@ public class PolicyServiceProxy extends ServiceProxy implements IPolicyService {
     private static final String TAG = "PolicyServiceProxy";
 
     // The intent used by sync adapter services to connect to the PolicyService
-    public static final String POLICY_INTENT = "com.android.email.POLICY_INTENT";
+    public static final String POLICY_INTENT = "com.appaholics.email.POLICY_INTENT";
 
     private IPolicyService mService = null;
     private Object mReturn = null;
